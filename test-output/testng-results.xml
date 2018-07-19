@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="118589" started-at="2018-07-01T04:16:45Z" finished-at="2018-07-01T04:18:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="118589" started-at="2018-07-01T04:16:45Z" finished-at="2018-07-01T04:18:44Z">
+      <class name="onlineShopping.MobTitVerAndSort">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:onlineShopping.MobTitVerAndSort@1f57539]" name="launchBrowser" is-config="true" duration-ms="12727" started-at="2018-07-01T04:16:45Z" finished-at="2018-07-01T04:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:onlineShopping.OrderSavedAsPDF@704a52ec]" name="launchBrowser" is-config="true" duration-ms="5480" started-at="2018-07-01T04:16:58Z" finished-at="2018-07-01T04:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:onlineShopping.ReOrderProduct@76f2b07d]" name="launchBrowser" is-config="true" duration-ms="4483" started-at="2018-07-01T04:17:03Z" finished-at="2018-07-01T04:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="creatAccShareWishList()[pri:0, instance:onlineShopping.MobTitVerAndSort@1f57539]" name="creatAccShareWishList" duration-ms="39116" started-at="2018-07-01T04:17:08Z" finished-at="2018-07-01T04:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatAccShareWishList -->
+        <test-method status="PASS" signature="mobCompare()[pri:0, instance:onlineShopping.MobTitVerAndSort@1f57539]" name="mobCompare" duration-ms="4789" started-at="2018-07-01T04:17:47Z" finished-at="2018-07-01T04:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobCompare -->
+        <test-method status="PASS" signature="mobileSort()[pri:0, instance:onlineShopping.MobTitVerAndSort@1f57539]" name="mobileSort" duration-ms="2509" started-at="2018-07-01T04:17:52Z" finished-at="2018-07-01T04:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSort -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:onlineShopping.MobTitVerAndSort@1f57539]" name="closeBrowser" is-config="true" duration-ms="865" started-at="2018-07-01T04:18:42Z" finished-at="2018-07-01T04:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:onlineShopping.ReOrderProduct@76f2b07d]" name="closeBrowser" is-config="true" duration-ms="547" started-at="2018-07-01T04:18:43Z" finished-at="2018-07-01T04:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:onlineShopping.OrderSavedAsPDF@704a52ec]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-07-01T04:18:43Z" finished-at="2018-07-01T04:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- onlineShopping.MobTitVerAndSort -->
+      <class name="onlineShopping.ReOrderProduct">
+        <test-method status="PASS" signature="verifyDiscount()[pri:0, instance:onlineShopping.ReOrderProduct@76f2b07d]" name="verifyDiscount" duration-ms="16733" started-at="2018-07-01T04:17:54Z" finished-at="2018-07-01T04:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDiscount -->
+      </class> <!-- onlineShopping.ReOrderProduct -->
+      <class name="onlineShopping.OrderSavedAsPDF">
+        <test-method status="PASS" signature="orderAsPDF()[pri:0, instance:onlineShopping.OrderSavedAsPDF@704a52ec]" name="orderAsPDF" duration-ms="31290" started-at="2018-07-01T04:18:11Z" finished-at="2018-07-01T04:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderAsPDF -->
+      </class> <!-- onlineShopping.OrderSavedAsPDF -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
